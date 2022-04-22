@@ -4,10 +4,11 @@ import { Component } from 'react';
 import FirstComponent from './components/learning-examples/FirstComponent'
 import SecondComponent from './components/learning-examples/SecondComponent'
 import ThirdComponent, {ForthComponent} from './components/learning-examples/ThirdComponent'
+import Counter from './components/counter/Counter';
 function App() {
   return (
-    <div className='LearningComponent'>
-      <LearningComponent></LearningComponent>
+    <div className='App'>
+      <Counter></Counter>
     </div>
   );
 }
